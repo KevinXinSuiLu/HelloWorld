@@ -110,6 +110,7 @@
 				TargetAttributes = {
 					1987F68D1F022DB700AE8A30 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5E3F6T56HV;
 					};
 				};
 			};
@@ -263,9 +264,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.xingkang.HelloWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lxs.Html5Stores;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -274,9 +276,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.xingkang.HelloWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lxs.Html5Stores;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -300,6 +303,7 @@
 				1987F6A71F022DB700AE8A30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
